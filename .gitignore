@@ -1,0 +1,6 @@
+/client/.env
+/client/node_modules
+/client/.idea
+/client/.next
+
+/server/node_modules

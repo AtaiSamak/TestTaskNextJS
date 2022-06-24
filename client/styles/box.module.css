@@ -1,0 +1,31 @@
+.wrapper {
+    max-width: 300px;
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: 50px;
+    position: relative;
+    background: linear-gradient(
+        215deg,
+        rgba(0, 237, 255, 1) 0%,
+        rgba(0, 242, 84, 1) 100%
+    );
+
+    z-index: 1;
+}
+
+.gradient {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 15px;
+    background: linear-gradient(
+        115deg,
+        rgba(0, 237, 255, 1) 0%,
+        rgba(0, 242, 84, 1) 100%
+    );
+    z-index: -1;
+    opacity: 1;
+    transition: opacity 1s linear;
+}
